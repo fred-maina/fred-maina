@@ -275,5 +275,25 @@ ul li a:hover {
     transform: var(--text-dark);
 
   }
+/* Add this style for the Show Source Code Button */
+
+.show-source-code {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.show-source-code:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
  
   
