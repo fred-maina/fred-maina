@@ -47,6 +47,8 @@
           <div class="action__btns">
             <button class="hire__me">Hire Me</button>
             <button class="portfolio">Portfolio</button>
+            <!-- Add the Show Source Code button -->
+            <button class="show-source-code" onclick="toggleSourceCode()">Show Source Code</button>
           </div>
         </div>
         <div class="image">
@@ -58,10 +60,10 @@
     <!-- Portfolio Section -->
     <section class="portfolio-section">
       <h2 class="section-title">My Projects</h2>
-      <div class="explainer"> 
+      <div class="explainer">
         <p>
-            Here are a list of various projects I have done. They are The simple Projects I have done while learning Programming. Click on View source code to see how these various projects have been implemented in different Programming Languages.
-        </p>   
+          Here are a list of various projects I have done. They are The simple Projects I have done while learning Programming. Click on View source code to see how these various projects have been implemented in different Programming Languages.
+        </p>
       </div>
       <div class="portfolio__container">
         <!-- Add your portfolio items here -->
@@ -70,8 +72,79 @@
           <h3>MusicRenamer</h3>
           <p>Introducing MusicRenamer: the ultimate solution for effortlessly organizing your music collection! Tired of cryptic file names from Tubidy or Y2mate downloads? With MusicRenamer, you can quickly and easily rename multiple files, customize naming conventions, and preview changes before committing. Enjoy an organized and user-friendly music library with intelligent naming suggestions based on metadata.  </p>
         </div>
-   
+      </div>
     </section>
 
+    <!-- Source Code Container -->
+    <div id="source-code-container" class="source-code-container">
+      <!-- Add your source code here -->
+      <pre>
+        <!-- Your source code goes here -->
+      <code>
+        import os
+import tkinter as tk
+from tkinter import filedialog
+
+def rename_files(folder_path, words_to_remove):
+    files = os.listdir(folder_path)
+    progress_label.config(text="Renaming in progress...")
+
+    for file_name in files:
+        if file_name.endswith(".mp3"):
+            new_name = file_name
+            for word in words_to_remove:
+                new_name = new_name.replace(word, "")
+
+            # Remove leading whitespaces
+            new_name = new_name.strip()
+
+            new_path = os.path.join(folder_path, new_name)
+            os.rename(os.path.join(folder_path, file_name), new_path)
+            progress_label.config(text=f"Renamed: {file_name} to {new_name}")
+
+    progress_label.config(text="Renaming completed!")
+
+def browse_folder():
+    folder_path = filedialog.askdirectory()
+    folder_entry.delete(0, tk.END)
+    folder_entry.insert(0, folder_path)
+
+def rename_button_click():
+    folder_path = folder_entry.get()
+    words_to_remove = words_entry.get().split(",")
+    rename_files(folder_path, words_to_remove)
+
+# Create the main window
+root = tk.Tk()
+root.title("MP3 File Renamer")
+
+# Create and place widgets
+tk.Label(root, text="Select Folder:").pack(pady=5)
+folder_entry = tk.Entry(root, width=50)
+folder_entry.pack(pady=5)
+tk.Button(root, text="Browse", command=browse_folder).pack(pady=5)
+
+tk.Label(root, text="Words to Remove (comma-separated):").pack(pady=5)
+words_entry = tk.Entry(root, width=50)
+words_entry.pack(pady=5)
+
+tk.Button(root, text="Rename Files", command=rename_button_click).pack(pady=10)
+progress_label = tk.Label(root, text="")
+progress_label.pack(pady=10)
+
+# Start the GUI
+root.mainloop()
+      </code>
+      </pre>
+    </div>
+
+    <!-- Script to toggle the visibility of the source code container -->
+    <script>
+      function toggleSourceCode() {
+        var sourceCodeContainer = document.getElementById('source-code-container');
+        sourceCodeContainer.style.display =
+          sourceCodeContainer.style.display === 'none' ? 'block' : 'none';
+      }
+    </script>
   </body>
 </html>
