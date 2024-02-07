@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @fred-maina
-- 👀 I’m interested in Artificial Inteligence, Machine Learning and BackEnd Development.
-- 🌱 I’m currently learning Artificial Intelligence with Python and Django Webframework
-- 💞️ I’m looking to collaborate on Python Projrcts, Full stack Development Projects
-- 📫 How to reach me (https://www.linkedin.com/in/fredmaina/)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: 
+👋 Hi, I'm @fred-maina!
+
+👀 I'm passionate about Artificial Intelligence, Machine Learning, and Backend Development.
+
+🌱 Currently, I'm diving deep into Artificial Intelligence with Python and exploring Django Web Framework.
+
+💞️ I'm eager to collaborate on Python Projects and Full Stack Development ventures.
+
+📫 Reach out to me on [LinkedIn](https://www.linkedin.com/in/fredmaina/)!
+
+😄 Pronouns: He/Him
 
 <!---
 fred-maina/fred-maina is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
