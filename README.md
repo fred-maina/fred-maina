@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/fred__maina" target="blank"><img src="https://img.shields.io/twitter/follow/fred__maina?logo=twitter&style=for-the-badge" alt="fred__maina" /></a> </p>
 
-- 🔭 I’m currently working on [A bank-replica created using python.](https://github.com/fred-maina/bank)
+- 🔭 I’m currently working on [Quizzy.](https://github.com/fred-maina/QuizzyBackend)
 
 - 🌱 I’m currently learning **Django, Flask, React,**
 
