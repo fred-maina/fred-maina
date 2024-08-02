@@ -1,5 +1,5 @@
 <h1 align="center">Hello World 👋, I'm Fredrick Maina</h1>
-<h3 align="center">A passionate Backend developer from Kenya</h3>
+<h3 align="center">A passionate FullStack developer from Kenya</h3>
 
 <p align="left"> <a href="https://twitter.com/fred__maina" target="blank"><img src="https://img.shields.io/twitter/follow/fred__maina?logo=twitter&style=for-the-badge" alt="fred__maina" /></a> </p>
 
