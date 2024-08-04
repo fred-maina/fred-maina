@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Fredrick Maina</h1>
+<h1 align="center">Hello, World👋, I'm Fredrick Maina</h1>
 <h3 align="center">A passionate FullStack developer from Kenya</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fred-maina&label=Profile%20views&color=0e75b6&style=flat" alt="fred-maina" /> </p>
