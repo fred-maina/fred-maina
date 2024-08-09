@@ -7,9 +7,9 @@
 
 - 🔭 I’m currently working on [Quizzy(A Quiz Sharing App)](https://github.com/fred-maina/Quizzy-Backend)
 
-- 🌱 I’m currently learning **Django, Flask, React,**
+- 🌱 I’m currently learning **SpringBoot,Django, Angular JS**
 
-- 💬 Ask me about **Python, C, C++, Data Structures and Algorithms.**
+- 💬 Ask me about **Full Stack development**
 
 - 📫 How to reach me **fchege04@gmail.com**
 
