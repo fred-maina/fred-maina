@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/fred__maina" target="blank"><img src="https://img.shields.io/twitter/follow/fred__maina?logo=twitter&style=for-the-badge" alt="fred__maina" /></a> </p>
 
-- 🔭 I’m currently working on [Quizzy(A Quiz Sharing App)](https://github.com/fred-maina/Quizzy-Backend)
+- 🔭 I’m currently working on [Quizzy(A Quiz Sharing App)](https://github.com/fred-maina/QuizzyFrontend)
 
 - 🌱 I’m currently learning **SpringBoot,Django, Angular JS**
 
