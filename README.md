@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Quizzy(A Quiz Sharing App)](https://github.com/fred-maina/QuizzyFrontend)
 
-- 🌱 I’m currently learning **SpringBoot,Django, Angular JS**
+- 🌱 I’m currently learning **SpringBoot,Django, Angular**
 
 - 💬 Ask me about **Full Stack development**
 
