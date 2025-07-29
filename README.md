@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/fred__maina" target="blank"><img src="https://img.shields.io/twitter/follow/fred__maina?logo=twitter&style=for-the-badge" alt="fred__maina" /></a> </p>
 
-- 🔭 I’m currently working on [Event-Management-App(A java event manager app)](https://github.com/fred-maina/Event-Management-App)
+- 🔭 I’m currently working on [AnonMSG (An anonymous messaging application- Try it out now!!)](https://anonmsg.fredmaina.com)
 
 - 🌱 I’m currently learning **SpringBoot,Django, AWS CLoud Services**
 
